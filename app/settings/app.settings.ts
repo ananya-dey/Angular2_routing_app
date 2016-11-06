@@ -1,0 +1,1 @@
+export var templates_locations = './app/templates/';
