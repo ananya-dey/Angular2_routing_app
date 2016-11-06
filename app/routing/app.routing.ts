@@ -1,8 +1,8 @@
-
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders }  from '@angular/core';
 import { HomeComponent }        from '../component/home.component';
 import { PostComponent }        from '../component/post.component';
+import { CommentComponent }     from '../component/comment.component';
 
 const RoutingElements: Routes = [
     {
@@ -12,6 +12,10 @@ const RoutingElements: Routes = [
     {
         path: 'posts',
         component: PostComponent,
+    },
+    {
+        path: 'comments',
+        component: CommentComponent,
     }
 ]
 

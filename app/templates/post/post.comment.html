@@ -2,13 +2,13 @@
 	<thead>
 		<tr>
 			<th>ID</th>
-			<th>Title</th>
+			<th>Body</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr *ngFor="let x of post_list">
+		<tr *ngFor="let x of post_comment">
 			<td>{{x.id}}</td>
-			<td><a routerLink="/comments">{{x.title}}</a></td>
+			<td>{{x.body}}</td>
 		</tr>
 	</tbody>
 </table>

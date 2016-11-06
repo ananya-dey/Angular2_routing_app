@@ -14,6 +14,7 @@ var app_component_1 = require('../component/app.component');
 var nav_component_1 = require('../component/nav.component');
 var home_component_1 = require('../component/home.component');
 var post_component_1 = require('../component/post.component');
+var comment_component_1 = require('../component/comment.component');
 var app_routing_1 = require('../routing/app.routing');
 var http_1 = require('@angular/http');
 var AppModule = (function () {
@@ -30,7 +31,8 @@ var AppModule = (function () {
                 app_component_1.AppComponent,
                 nav_component_1.NavComponent,
                 home_component_1.HomeComponent,
-                post_component_1.PostComponent
+                post_component_1.PostComponent,
+                comment_component_1.CommentComponent
             ],
             bootstrap: [
                 app_component_1.AppComponent
